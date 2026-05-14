@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="WashWise icon">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="48" x2="432" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="128" y="92" width="256" height="328" rx="44" fill="#f8fafc"/>
+  <rect x="152" y="120" width="208" height="58" rx="18" fill="#dff6ff"/>
+  <circle cx="191" cy="149" r="13" fill="#0ea5e9"/>
+  <circle cx="232" cy="149" r="13" fill="#06b6d4"/>
+  <circle cx="256" cy="292" r="78" fill="#0ea5e9" opacity="0.18"/>
+  <path d="M180 294c34 32 77 30 103 4 25-25 55-26 78-4a106 106 0 1 1-181 0Z" fill="#0ea5e9"/>
+  <circle cx="330" cy="226" r="18" fill="#e0f2fe"/>
+  <circle cx="360" cy="198" r="12" fill="#e0f2fe"/>
+</svg>
