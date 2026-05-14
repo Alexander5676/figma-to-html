@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  color-scheme: light;
+  --background: #f5f7fb;
+  --foreground: #172033;
+}
+
+:root.dark {
+  color-scheme: dark;
+  --background: #0d1220;
+  --foreground: #eef4ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(circle at top left, rgba(72, 187, 255, 0.18), transparent 34rem),
+    radial-gradient(circle at top right, rgba(99, 102, 241, 0.16), transparent 28rem),
+    var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+::selection {
+  background: #67e8f9;
+  color: #082f49;
+}

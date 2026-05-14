@@ -1,0 +1,21 @@
+{
+  "name": "WashWise — гид по стирке",
+  "short_name": "WashWise",
+  "description": "Подсказки по частоте, температуре и режимам стирки одежды.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f5f7fb",
+  "theme_color": "#38bdf8",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["lifestyle", "utilities"],
+  "lang": "ru"
+}
